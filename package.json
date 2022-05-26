@@ -9,11 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "vuepress": "^1.9.7"
   },
   "config": {
-    "ghooks": {
-      "commit-msg": "./validate-commit-msg.js"
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
