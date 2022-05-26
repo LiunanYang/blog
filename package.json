@@ -10,5 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.9.7"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "./validate-commit-msg.js"
+    }
   }
 }
