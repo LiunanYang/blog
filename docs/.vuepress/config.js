@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'Hello VuePress',
+  title: 'my blog',
   description: 'Just playing around',
   dest: './docs/dist',
   themeConfig: {
     sidebar: [
       {
-        title: 'Group 1',   // 必要的
+        title: 'blog',   // 必要的
         path: '/a/b',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
-          ['/a/b.md','bbb'],
+          ['/a/sql.md','数据库操作'],
           ['/a/c.md','ccc']
         ]
       },
